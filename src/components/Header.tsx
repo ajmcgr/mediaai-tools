@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Star } from "lucide-react";
-import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
@@ -9,62 +7,41 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="flex items-center space-x-1">
-              <Star className="h-6 w-6 text-primary fill-primary" />
-              <span className="text-xl font-bold text-foreground">media</span>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
+              alt="Media AI" 
+              className="h-8"
+            />
           </Link>
 
-          {/* Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <Link 
-              to="/" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Home
-            </Link>
-            <Link 
-              to="/tools" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Tools
-            </Link>
-            <Link 
-              to="/about" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              About
-            </Link>
-            <Link 
-              to="/documentation" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Documentation
-            </Link>
-            <Link 
-              to="/signin" 
-              className="text-foreground hover:text-primary transition-colors font-medium"
-            >
-              Sign In
-            </Link>
-          </nav>
-
-          {/* CTA Button & Mobile Menu */}
-          <div className="flex items-center space-x-4">
+          {/* Auth Buttons */}
+          <div className="flex items-center space-x-3">
             <Button 
               asChild
-              className="btn-primary hidden sm:inline-flex"
+              variant="ghost"
+              className="text-foreground hover:text-primary font-medium"
             >
               <a 
-                href="https://trymedia.ai" 
+                href="https://trymedia.ai/auth?type=login" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Open Media AI
+                Login
               </a>
             </Button>
-            <MobileMenu />
+            <Button 
+              asChild
+              className="bg-primary text-primary-foreground hover:bg-primary-hover font-medium"
+            >
+              <a 
+                href="https://trymedia.ai/auth?type=signup" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Sign Up
+              </a>
+            </Button>
           </div>
         </div>
       </div>
