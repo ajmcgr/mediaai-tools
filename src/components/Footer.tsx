@@ -18,7 +18,7 @@ const Footer = () => {
 
             {/* Company */}
             <div>
-              <h4 className="font-medium text-sm" style={{ color: '#222529' }}>Company</h4>
+              <h4 className="font-inter font-medium text-base mb-4" style={{ color: '#222529' }}>Company</h4>
               <div className="space-y-3">
                 <Link 
                   to="/about" 
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
             {/* Support */}
             <div>
-              <h4 className="font-medium text-sm" style={{ color: '#222529' }}>Support</h4>
+              <h4 className="font-inter font-medium text-base mb-4" style={{ color: '#222529' }}>Support</h4>
               <div className="space-y-3">
                 <a 
                   href="mailto:support@trymedia.ai"
@@ -81,7 +81,7 @@ const Footer = () => {
 
             {/* Free Tools */}
             <div>
-              <h4 className="font-medium text-sm" style={{ color: '#222529' }}>Free Tools</h4>
+              <h4 className="font-inter font-medium text-base mb-4" style={{ color: '#222529' }}>Free Tools</h4>
               <div className="space-y-3">
                 <Link 
                   to="/tools/beat-outlet-matcher" 
@@ -116,7 +116,7 @@ const Footer = () => {
 
             {/* Connect */}
             <div>
-              <h4 className="font-medium text-sm" style={{ color: '#222529' }}>Connect</h4>
+              <h4 className="font-inter font-medium text-base mb-4" style={{ color: '#222529' }}>Connect</h4>
               <div className="space-y-3">
                 <a 
                   href="https://twitter.com/trymediaai" 

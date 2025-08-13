@@ -21,6 +21,7 @@ export default {
 			fontFamily: {
 				heading: 'var(--font-heading)',
 				body: 'var(--font-body)',
+				inter: ['Inter', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
