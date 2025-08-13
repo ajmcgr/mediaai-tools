@@ -12,13 +12,13 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
                 alt="Media AI" 
-                className="h-7"
+                className="h-5"
               />
             </div>
 
             {/* Company */}
             <div>
-              <h4 className="font-medium text-foreground mb-4 font-body">Company</h4>
+              <h4 className="font-semibold text-foreground mb-4 font-body">Company</h4>
               <div className="space-y-3">
                 <Link 
                   to="/about" 
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             {/* Support */}
             <div>
-              <h4 className="font-medium text-foreground mb-4 font-body">Support</h4>
+              <h4 className="font-semibold text-foreground mb-4 font-body">Support</h4>
               <div className="space-y-3">
                 <a 
                   href="mailto:support@trymedia.ai"
@@ -75,7 +75,7 @@ const Footer = () => {
 
             {/* Free Tools */}
             <div>
-              <h4 className="font-medium text-foreground mb-4 font-body">Free Tools</h4>
+              <h4 className="font-semibold text-foreground mb-4 font-body">Free Tools</h4>
               <div className="space-y-3">
                 <Link 
                   to="/tools/beat-outlet-matcher" 
@@ -106,7 +106,7 @@ const Footer = () => {
 
             {/* Connect */}
             <div>
-              <h4 className="font-medium text-foreground mb-4 font-body">Connect</h4>
+              <h4 className="font-semibold text-foreground mb-4 font-body">Connect</h4>
               <div className="space-y-3">
                 <a 
                   href="https://twitter.com/trymediaai" 
