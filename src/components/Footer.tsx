@@ -96,13 +96,15 @@ const Footer = () => {
                 >
                   Subject Line Split-Tester
                 </Link>
-                <Link 
-                  to="/tools" 
+                <a 
+                  href="https://tools.trymedia.ai/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="block text-sm font-light transition-colors"
                   style={{ color: '#222529' }}
                 >
                   View All Tools →
-                </Link>
+                </a>
               </div>
             </div>
 
