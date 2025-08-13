@@ -12,7 +12,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
                 alt="Media AI" 
-                className="h-4"
+                className="h-5"
               />
             </div>
 
@@ -22,7 +22,7 @@ const Footer = () => {
               <div className="space-y-3">
                 <Link 
                   to="/about" 
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   About
@@ -31,7 +31,7 @@ const Footer = () => {
                   href="https://blog.trymedia.ai/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Blog
@@ -40,7 +40,7 @@ const Footer = () => {
                   href="https://discord.gg/zrFtSbzQ2W" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Community
@@ -53,7 +53,7 @@ const Footer = () => {
               <div className="space-y-3">
                 <a 
                   href="mailto:support@trymedia.ai"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Support
@@ -62,7 +62,7 @@ const Footer = () => {
                   href="https://trymedia.ai/privacy-policy" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Privacy Policy
@@ -71,7 +71,7 @@ const Footer = () => {
                   href="https://trymedia.ai/terms-of-service" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Terms of Service
@@ -85,28 +85,28 @@ const Footer = () => {
               <div className="space-y-3">
                 <Link 
                   to="/tools/beat-outlet-matcher" 
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Beat & Outlet Matcher
                 </Link>
                 <Link 
                   to="/tools/pitch-personalization-helper" 
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Pitch Personalization Helper
                 </Link>
                 <Link 
                   to="/tools/subject-line-split-tester" 
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Subject Line Split-Tester
                 </Link>
                 <Link 
                   to="/tools" 
-                  className="block text-sm font-medium hover:opacity-70 transition-opacity"
+                  className="block text-sm font-medium transition-colors"
                   style={{ color: '#222529' }}
                 >
                   View All Tools →
@@ -122,7 +122,7 @@ const Footer = () => {
                   href="https://twitter.com/trymediaai" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Twitter
@@ -131,14 +131,14 @@ const Footer = () => {
                   href="https://linkedin.com/company/trymediaai" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   LinkedIn
                 </a>
                 <a 
                   href="mailto:hello@trymedia.ai"
-                  className="block text-sm hover:opacity-70 transition-opacity"
+                  className="block text-sm transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Email
