@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Twitter, Linkedin } from "lucide-react";
+import { MessageCircle, Users } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -118,16 +118,16 @@ const Footer = () => {
                   className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  <Twitter size={16} />
+                  <MessageCircle size={16} />
                 </a>
                 <a 
-                  href="https://linkedin.com/company/trymediaai" 
+                  href="https://linkedin.com/company/trymediaai"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  <Linkedin size={16} />
+                  <Users size={16} />
                 </a>
               </div>
             </div>
