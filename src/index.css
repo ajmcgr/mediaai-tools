@@ -6,6 +6,31 @@
 All colors MUST be HSL.
 */
 
+/* Reckless Font Faces */
+@font-face {
+  font-family: 'Reckless';
+  src: url('/Reckless-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Reckless';
+  src: url('/Reckless-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Reckless';
+  src: url('/Reckless-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     /* Core brand colors matching Media AI */
@@ -50,7 +75,7 @@ All colors MUST be HSL.
     --shadow-hover: 0 10px 15px -3px hsl(217 91% 60% / 0.1), 0 4px 6px -2px hsl(217 91% 60% / 0.05);
     
     /* Typography */
-    --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-heading: 'Reckless', 'Inter', system-ui, -apple-system, sans-serif;
     --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 
     --sidebar-background: 0 0% 98%;
