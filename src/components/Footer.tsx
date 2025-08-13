@@ -97,7 +97,7 @@ const Footer = () => {
                 </Link>
                 <Link 
                   to="/tools" 
-                  className="block text-primary hover:text-primary-hover transition-colors font-medium"
+                  className="block text-foreground hover:text-muted-foreground transition-colors font-medium"
                 >
                   View All Tools →
                 </Link>
