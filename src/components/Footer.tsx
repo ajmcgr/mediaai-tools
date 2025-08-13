@@ -118,7 +118,7 @@ const Footer = () => {
                   style={{ color: '#222529' }}
                 >
                   <svg width="20" height="20" fill="currentColor">
-                    <use href="/src/assets/phosphor-icons.svg#x-logo"></use>
+                    <use href="/phosphor-icons.svg#x-logo"></use>
                   </svg>
                 </a>
                 <a 
@@ -129,7 +129,7 @@ const Footer = () => {
                   style={{ color: '#222529' }}
                 >
                   <svg width="20" height="20" fill="currentColor">
-                    <use href="/src/assets/phosphor-icons.svg#linkedin-logo"></use>
+                    <use href="/phosphor-icons.svg#linkedin-logo"></use>
                   </svg>
                 </a>
               </div>
