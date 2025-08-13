@@ -73,35 +73,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Connect */}
-            <div>
-              <h4 className="font-medium text-foreground mb-4">Connect</h4>
-              <div className="space-y-3">
-                <a 
-                  href="https://twitter.com/trymediaai" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="block text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Twitter
-                </a>
-                <a 
-                  href="https://linkedin.com/company/trymediaai" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="block text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  LinkedIn
-                </a>
-                <a 
-                  href="mailto:hello@trymedia.ai"
-                  className="block text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Email
-                </a>
-              </div>
-            </div>
-
             {/* Free Tools */}
             <div>
               <h4 className="font-medium text-foreground mb-4">Free Tools</h4>
@@ -130,6 +101,35 @@ const Footer = () => {
                 >
                   View All Tools →
                 </Link>
+              </div>
+            </div>
+
+            {/* Connect */}
+            <div>
+              <h4 className="font-medium text-foreground mb-4">Connect</h4>
+              <div className="space-y-3">
+                <a 
+                  href="https://twitter.com/trymediaai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Twitter
+                </a>
+                <a 
+                  href="https://linkedin.com/company/trymediaai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  LinkedIn
+                </a>
+                <a 
+                  href="mailto:hello@trymedia.ai"
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Email
+                </a>
               </div>
             </div>
           </div>

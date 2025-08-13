@@ -19,7 +19,8 @@ const Header = () => {
           <div className="flex items-center space-x-6">
             <Link 
               to="/pricing" 
-              className="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium"
+              className="hover:text-gray-900 transition-colors text-sm font-medium"
+              style={{ color: '#1675e2' }}
             >
               Pricing
             </Link>
@@ -40,7 +41,17 @@ const Header = () => {
               </Button>
               <Button 
                 asChild
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium text-sm px-4 py-2 h-auto rounded-md border-0"
+                className="font-medium text-sm h-auto border border-solid rounded-lg"
+                style={{
+                  backgroundColor: '#ffffff',
+                  color: '#22252a',
+                  borderColor: '#e3e4e5',
+                  borderRadius: '8px',
+                  padding: '10px 20px',
+                  minHeight: '48px',
+                  fontWeight: '500',
+                  fontSize: '14px'
+                }}
               >
                 <a 
                   href="https://trymedia.ai/auth?type=signup" 
