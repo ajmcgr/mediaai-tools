@@ -117,7 +117,7 @@ const Footer = () => {
                   className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  <svg width="16" height="16" fill="currentColor">
+                  <svg width="20" height="20" fill="currentColor">
                     <use href="/src/assets/phosphor-icons.svg#x-logo"></use>
                   </svg>
                 </a>
@@ -128,7 +128,7 @@ const Footer = () => {
                   className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  <svg width="16" height="16" fill="currentColor">
+                  <svg width="20" height="20" fill="currentColor">
                     <use href="/src/assets/phosphor-icons.svg#linkedin-logo"></use>
                   </svg>
                 </a>
