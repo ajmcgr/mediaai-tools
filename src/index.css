@@ -163,7 +163,6 @@ All colors MUST be HSL.
   
   .btn-hero:hover {
     box-shadow: var(--shadow-hover);
-    transform: translateY(-1px);
   }
 
   .btn-primary {
@@ -173,7 +172,6 @@ All colors MUST be HSL.
 
   .btn-primary:hover {
     box-shadow: var(--shadow-hover);
-    transform: translateY(-1px);
   }
 
   .btn-secondary {
