@@ -11,37 +11,46 @@ const Header = () => {
             <img 
               src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
               alt="Media AI" 
-              className="h-8"
+              className="h-6"
             />
           </Link>
 
-          {/* Auth Buttons */}
-          <div className="flex items-center space-x-3">
-            <Button 
-              asChild
-              variant="ghost"
-              className="text-foreground hover:text-primary font-medium"
+          {/* Navigation & Auth */}
+          <div className="flex items-center space-x-8">
+            <Link 
+              to="/pricing" 
+              className="text-foreground hover:text-primary transition-colors font-medium"
             >
-              <a 
-                href="https://trymedia.ai/auth?type=login" 
-                target="_blank" 
-                rel="noopener noreferrer"
+              Pricing
+            </Link>
+            
+            <div className="flex items-center space-x-3">
+              <Button 
+                asChild
+                variant="ghost"
+                className="text-foreground hover:text-primary font-medium px-4 py-2"
               >
-                Login
-              </a>
-            </Button>
-            <Button 
-              asChild
-              className="bg-primary text-primary-foreground hover:bg-primary-hover font-medium"
-            >
-              <a 
-                href="https://trymedia.ai/auth?type=signup" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                <a 
+                  href="https://trymedia.ai/auth?type=login" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Login
+                </a>
+              </Button>
+              <Button 
+                asChild
+                className="bg-primary text-primary-foreground hover:bg-primary-hover font-medium px-4 py-2 rounded-lg"
               >
-                Sign Up
-              </a>
-            </Button>
+                <a 
+                  href="https://trymedia.ai/auth?type=signup" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Sign Up
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </div>

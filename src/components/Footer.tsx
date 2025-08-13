@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
 
           {/* Footer Links */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Company */}
             <div>
               <h4 className="font-medium text-foreground mb-4">Company</h4>
@@ -70,6 +70,35 @@ const Footer = () => {
                   className="block text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Terms of Service
+                </a>
+              </div>
+            </div>
+
+            {/* Connect */}
+            <div>
+              <h4 className="font-medium text-foreground mb-4">Connect</h4>
+              <div className="space-y-3">
+                <a 
+                  href="https://twitter.com/trymediaai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Twitter
+                </a>
+                <a 
+                  href="https://linkedin.com/company/trymediaai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  LinkedIn
+                </a>
+                <a 
+                  href="mailto:hello@trymedia.ai"
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Email
                 </a>
               </div>
             </div>
