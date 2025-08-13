@@ -202,16 +202,16 @@ const ToolTemplate = () => {
   return (
     <Layout>
       {/* Hero */}
-      <section className="bg-hero-gradient py-16">
+      <section className="bg-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-4 bg-white/20 text-white border-white/30">
+            <Badge className="mb-4 bg-gray-100 text-gray-700 border-gray-200">
               {currentTool.category}
             </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h1 className="text-3xl md:text-4xl font-normal text-gray-900 mb-4">
               {currentTool.title}
             </h1>
-            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {currentTool.description}
             </p>
           </div>
