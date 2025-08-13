@@ -7,13 +7,18 @@ const Header = () => {
       <div className="max-w-4xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <a 
+            href="https://trymedia.ai/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
             <img 
               src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
               alt="Media AI" 
               className="h-6"
             />
-          </Link>
+          </a>
 
           {/* Navigation & Auth */}
           <div className="flex items-center space-x-6">

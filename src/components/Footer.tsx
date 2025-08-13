@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Footer Links */}
-          <div className="grid grid-cols-1 md:grid-cols-4 -gap-x-4 text-center md:text-left justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-5 -gap-x-4 text-center md:text-left justify-center">
 
             {/* Company */}
             <div>
@@ -67,6 +67,49 @@ const Footer = () => {
                   style={{ color: '#222529' }}
                 >
                   Terms of Service
+                </a>
+              </div>
+            </div>
+
+            {/* Resources */}
+            <div>
+              <h4 className="font-inter font-semibold text-base mb-4" style={{ color: '#222529' }}>Resources</h4>
+              <div className="space-y-3">
+                <a 
+                  href="https://resources.trymedia.ai/resources/build-a-media-list-that-gets-replies" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-sm font-light transition-colors"
+                  style={{ color: '#222529' }}
+                >
+                  Build a Media List
+                </a>
+                <a 
+                  href="https://resources.trymedia.ai/resources/personalized-pitches-at-scale" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-sm font-light transition-colors"
+                  style={{ color: '#222529' }}
+                >
+                  Personalized Pitches
+                </a>
+                <a 
+                  href="https://resources.trymedia.ai/resources/amec-framework-for-pr-measurement" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-sm font-light transition-colors"
+                  style={{ color: '#222529' }}
+                >
+                  PR Measurement
+                </a>
+                <a 
+                  href="https://resources.trymedia.ai/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block text-sm font-light transition-colors"
+                  style={{ color: '#222529' }}
+                >
+                  View All Resources →
                 </a>
               </div>
             </div>
