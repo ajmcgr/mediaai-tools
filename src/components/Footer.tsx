@@ -6,15 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Footer Links */}
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-            {/* Logo */}
-            <div>
-              <img 
-                src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
-                alt="Media AI" 
-                className="h-5"
-              />
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
 
             {/* Company */}
             <div>
