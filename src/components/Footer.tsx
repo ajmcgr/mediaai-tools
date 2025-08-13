@@ -76,7 +76,7 @@ const Footer = () => {
               <h4 className="font-inter font-semibold text-base mb-4" style={{ color: '#222529' }}>Resources</h4>
               <div className="space-y-3">
                 <a 
-                  href="https://resources.trymedia.ai/resources/build-a-media-list-that-gets-replies" 
+                  href="https://resources.trymedia.ai/build-a-media-list-that-gets-replies" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block text-sm font-light transition-colors"
@@ -85,7 +85,7 @@ const Footer = () => {
                   Build a Media List
                 </a>
                 <a 
-                  href="https://resources.trymedia.ai/resources/personalized-pitches-at-scale" 
+                  href="https://resources.trymedia.ai/personalized-pitches-at-scale" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block text-sm font-light transition-colors"
@@ -94,7 +94,7 @@ const Footer = () => {
                   Personalized Pitches
                 </a>
                 <a 
-                  href="https://resources.trymedia.ai/resources/amec-framework-for-pr-measurement" 
+                  href="https://resources.trymedia.ai/amec-framework-for-pr-measurement" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block text-sm font-light transition-colors"
@@ -106,7 +106,7 @@ const Footer = () => {
                   href="https://resources.trymedia.ai/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm font-light transition-colors"
+                  className="block text-sm font-semibold transition-colors"
                   style={{ color: '#222529' }}
                 >
                   View All Resources →
