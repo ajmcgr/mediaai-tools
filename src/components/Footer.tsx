@@ -5,17 +5,17 @@ const Footer = () => {
     <footer className="bg-white border-t border-border py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          {/* Logo */}
-          <div className="mb-8">
-            <img 
-              src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
-              alt="Media AI" 
-              className="h-7"
-            />
-          </div>
-
           {/* Footer Links */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+            {/* Logo */}
+            <div>
+              <img 
+                src="/lovable-uploads/e30b4157-d7ea-4910-acef-04e28b2e90f8.png" 
+                alt="Media AI" 
+                className="h-7"
+              />
+            </div>
+
             {/* Company */}
             <div>
               <h4 className="font-medium text-foreground mb-4">Company</h4>
@@ -44,7 +44,6 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-
             {/* Support */}
             <div>
               <h4 className="font-medium text-foreground mb-4">Support</h4>
