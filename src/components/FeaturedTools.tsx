@@ -94,7 +94,7 @@ const FeaturedTools = () => {
             const IconComponent = tool.icon;
             return (
               <Card key={tool.slug} className="card-tool group cursor-pointer">
-                <Link to={`/tools/${tool.slug}`} className="block">
+                <Link to={`/${tool.slug}`} className="block">
                   <div className="flex items-start justify-between mb-4">
                     <div className="p-3 bg-primary/10 rounded-xl">
                       <IconComponent className="h-6 w-6 text-primary" />

@@ -1020,7 +1020,7 @@ const ToolTemplate = () => {
                 {currentTool.relatedTools.map((tool, index) => (
                   <Link
                     key={index}
-                    to={`/tools/${tool.slug}`}
+                    to={`/${tool.slug}`}
                     className="p-4 bg-secondary hover:bg-secondary/80 rounded-xl border border-border transition-colors group"
                   >
                     <h4 className="font-medium text-foreground group-hover:text-primary transition-colors">

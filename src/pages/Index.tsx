@@ -212,7 +212,7 @@ const Index = () => {
               const IconComponent = tool.icon;
               return (
                 <Card key={tool.slug} className="p-6 hover:shadow-lg transition-all duration-300 group">
-                  <Link to={`/tools/${tool.slug}`} className="block">
+                  <Link to={`/${tool.slug}`} className="block">
                     <div className="flex items-start space-x-4">
                       <div className="p-2 bg-primary/10 rounded-lg flex-shrink-0">
                         <IconComponent className="h-5 w-5 text-primary" />

@@ -119,21 +119,21 @@ const Footer = () => {
               <h4 className="font-inter font-semibold text-base mb-4" style={{ color: '#222529' }}>Free Tools</h4>
               <div className="space-y-3">
                 <Link 
-                  to="/tools/beat-outlet-matcher" 
+                  to="/beat-outlet-matcher" 
                   className="block text-sm font-light transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Beat & Outlet Matcher
                 </Link>
                 <Link 
-                  to="/tools/pitch-personalization-helper" 
+                  to="/pitch-personalization-helper" 
                   className="block text-sm font-light transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Pitch Personalization Helper
                 </Link>
                 <Link 
-                  to="/tools/subject-line-split-tester" 
+                  to="/subject-line-split-tester" 
                   className="block text-sm font-light transition-colors"
                   style={{ color: '#222529' }}
                 >
