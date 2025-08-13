@@ -148,7 +148,7 @@ const Footer = () => {
           </div>
           
           {/* Copyright */}
-          <div className="border-t border-border mt-12 pt-8">
+          <div className="mt-12 pt-8">
             <div className="text-center">
               <p className="text-sm font-light" style={{ color: '#222529' }}>
                 Copyright © 2025 Works App, Inc. Built with ♥️ by{' '}
@@ -156,7 +156,7 @@ const Footer = () => {
                   href="https://works.xyz/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline hover:opacity-70 transition-opacity"
+                  className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
                   Works
