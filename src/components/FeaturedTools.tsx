@@ -121,6 +121,22 @@ const FeaturedTools = () => {
                     <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
                   </div>
                 </Link>
+                
+                {/* CTA Section */}
+                <div className="mt-4 pt-4 border-t border-border">
+                  <p className="text-xs text-muted-foreground mb-2">
+                    Ready for the full experience?
+                  </p>
+                  <Button asChild size="sm" variant="outline" className="w-full text-xs">
+                    <a 
+                      href="https://trymedia.ai" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      Try Media AI Platform
+                    </a>
+                  </Button>
+                </div>
               </Card>
             );
           })}

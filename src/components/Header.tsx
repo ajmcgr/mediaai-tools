@@ -17,13 +17,6 @@ const Header = () => {
 
           {/* Navigation & Auth */}
           <div className="flex items-center space-x-6">
-            <Link 
-              to="/pricing" 
-              className="hover:text-gray-900 transition-colors text-sm font-medium"
-              style={{ color: '#1675e2' }}
-            >
-              Pricing
-            </Link>
             
             <div className="flex items-center space-x-2">
               <Button 
