@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { MessageCircle, Users } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -118,16 +117,20 @@ const Footer = () => {
                   className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  <MessageCircle size={16} />
+                  <svg width="16" height="16" fill="currentColor">
+                    <use href="/src/assets/phosphor-icons.svg#x-logo"></use>
+                  </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/company/trymediaai"
+                  href="https://linkedin.com/company/trymediaai" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  <Users size={16} />
+                  <svg width="16" height="16" fill="currentColor">
+                    <use href="/src/assets/phosphor-icons.svg#linkedin-logo"></use>
+                  </svg>
                 </a>
               </div>
             </div>
