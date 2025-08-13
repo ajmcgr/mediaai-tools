@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Twitter, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -114,19 +115,19 @@ const Footer = () => {
                   href="https://twitter.com/trymediaai" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm font-light transition-colors"
+                  className="block hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  Twitter
+                  <Twitter size={16} />
                 </a>
                 <a 
                   href="https://linkedin.com/company/trymediaai" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block text-sm font-light transition-colors"
+                  className="block hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
-                  LinkedIn
+                  <Linkedin size={16} />
                 </a>
                 <a 
                   href="mailto:hello@trymedia.ai"
