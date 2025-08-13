@@ -110,12 +110,12 @@ const Footer = () => {
             {/* Connect */}
             <div>
               <h4 className="font-inter font-semibold text-base mb-4" style={{ color: '#222529' }}>Connect</h4>
-              <div className="space-y-3">
+              <div className="flex space-x-4">
                 <a 
                   href="https://twitter.com/trymediaai" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block hover:opacity-70 transition-opacity"
+                  className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
                   <Twitter size={16} />
@@ -124,17 +124,10 @@ const Footer = () => {
                   href="https://linkedin.com/company/trymediaai" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block hover:opacity-70 transition-opacity"
+                  className="hover:opacity-70 transition-opacity"
                   style={{ color: '#222529' }}
                 >
                   <Linkedin size={16} />
-                </a>
-                <a 
-                  href="mailto:hello@trymedia.ai"
-                  className="block text-sm font-light transition-colors"
-                  style={{ color: '#222529' }}
-                >
-                  Email
                 </a>
               </div>
             </div>
