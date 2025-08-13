@@ -203,7 +203,7 @@ const Index = () => {
     <Layout>
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold text-foreground mb-8 text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal text-foreground mb-8 text-center">
             Free PR & Social Media Tools
           </h1>
           
