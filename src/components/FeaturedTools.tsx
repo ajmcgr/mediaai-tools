@@ -23,7 +23,7 @@ const FeaturedTools = () => {
       badge: "Popular"
     },
     {
-      title: "Pitch Personalization Helper",
+      title: "Pitch Personalization Generator",
       description: "Generate tailored opening lines referencing recent journalist coverage",
       icon: MessageSquare,
       slug: "pitch-personalization-helper",
@@ -47,7 +47,7 @@ const FeaturedTools = () => {
       badge: null
     },
     {
-      title: "Influencer Brief Builder",
+      title: "Influencer Brief Generator",
       description: "Generate clear briefs with deliverables, messaging, and deadlines",
       icon: Users,
       slug: "influencer-brief-builder",

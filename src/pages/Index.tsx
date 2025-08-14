@@ -37,7 +37,7 @@ const Index = () => {
       category: "Pitching"
     },
     {
-      title: "Pitch Personalization Helper",
+      title: "Pitch Personalization Generator",
       description: "Generate tailored opening lines referencing recent journalist coverage",
       icon: MessageSquare,
       slug: "pitch-personalization-helper",
@@ -65,7 +65,7 @@ const Index = () => {
       category: "Pitching"
     },
     {
-      title: "Follow-Up Cadence Builder",
+      title: "Follow-Up Cadence Generator",
       description: "Create a 2–3 step follow-up plan with timing, copy prompts, and calendar reminders",
       icon: GitBranch,
       slug: "follow-up-cadence-builder",
@@ -93,7 +93,7 @@ const Index = () => {
       category: "Pitching"
     },
     {
-      title: "Press Release Structure Builder",
+      title: "Press Release Structure Generator",
       description: "Choose type (funding, product, partnership); get a press release scaffold with fielded sections",
       icon: FileText,
       slug: "press-release-structure-builder",
@@ -114,7 +114,7 @@ const Index = () => {
       category: "Analytics"
     },
     {
-      title: "UTM Builder for PR Links",
+      title: "UTM Generator for PR Links",
       description: "Generate consistent UTM parameters for press links and influencer links",
       icon: ExternalLink,
       slug: "utm-builder-pr-links",
@@ -128,7 +128,7 @@ const Index = () => {
       category: "Analytics"
     },
     {
-      title: "Media Kit Builder (Lite)",
+      title: "Media Kit Generator (Lite)",
       description: "Assemble a lightweight press kit page: logo, product shots, boilerplate, founder bios",
       icon: Megaphone,
       slug: "media-kit-builder-lite",
@@ -149,7 +149,7 @@ const Index = () => {
       category: "Compliance"
     },
     {
-      title: "Influencer Brief Builder",
+      title: "Influencer Brief Generator",
       description: "Generate a clear brief (deliverables, messaging, usage rights, deadlines, do/don't)",
       icon: Users,
       slug: "influencer-brief-builder",

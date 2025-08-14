@@ -43,7 +43,7 @@ const ToolsHub = () => {
       badge: "Popular" 
     },
     { 
-      title: "Pitch Personalization Helper", 
+      title: "Pitch Personalization Generator", 
       description: "Enter journalist name + beat; get 3 tailored opening lines", 
       icon: MessageSquare, 
       slug: "pitch-personalization-helper", 
@@ -75,7 +75,7 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Follow-Up Cadence Builder", 
+      title: "Follow-Up Cadence Generator", 
       description: "Create a 2–3 step follow-up plan with timing and copy prompts", 
       icon: Clock, 
       slug: "follow-up-cadence-builder", 
@@ -127,7 +127,7 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Influencer Brief Builder", 
+      title: "Influencer Brief Generator", 
       description: "Generate a clear brief with deliverables, messaging, usage rights", 
       icon: Users, 
       slug: "influencer-brief-builder", 
@@ -153,7 +153,7 @@ const ToolsHub = () => {
 
     // Workflow Tools
     { 
-      title: "Press Release Structure Builder", 
+      title: "Press Release Structure Generator", 
       description: "Choose type; get a press release scaffold with fielded sections", 
       icon: FileText, 
       slug: "press-release-builder", 
@@ -169,7 +169,7 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Media Kit Builder (Lite)", 
+      title: "Media Kit Generator (Lite)", 
       description: "Assemble a lightweight press kit page", 
       icon: FileText, 
       slug: "media-kit-builder", 
@@ -195,7 +195,7 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "UTM Builder for PR Links", 
+      title: "UTM Generator for PR Links", 
       description: "Generate consistent UTM parameters for press links", 
       icon: Globe, 
       slug: "utm-builder-pr", 
