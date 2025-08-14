@@ -130,7 +130,7 @@ const Footer = () => {
                   className="block text-sm font-light transition-colors"
                   style={{ color: '#222529' }}
                 >
-                  Pitch Personalization Helper
+                  Pitch Personalization Generator
                 </Link>
                 <Link 
                   to="/subject-line-split-tester" 
