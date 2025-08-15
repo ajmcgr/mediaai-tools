@@ -84,24 +84,20 @@ const Footer = () => {
                 >
                   Build a Media List
                 </a>
-                <a 
-                  href="https://resources.trymedia.ai/personalized-pitches-at-scale" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                <Link 
+                  to="/press-release-templates-by-announcement-type" 
                   className="block text-sm font-light transition-colors"
                   style={{ color: '#222529' }}
                 >
                   Press Release Templates
-                </a>
-                <a 
-                  href="https://resources.trymedia.ai/amec-framework-for-pr-measurement" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                </Link>
+                <Link 
+                  to="/pr-attribution-with-utms" 
                   className="block text-sm font-light transition-colors"
                   style={{ color: '#222529' }}
                 >
                   PR Attribution
-                </a>
+                </Link>
                 <a 
                   href="https://resources.trymedia.ai/" 
                   target="_blank" 
