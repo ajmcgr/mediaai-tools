@@ -24,7 +24,8 @@ import {
   AlertTriangle,
   Type,
   Filter,
-  DollarSign
+  DollarSign,
+  Calendar
 } from "lucide-react";
 
 const Index = () => {
@@ -72,18 +73,18 @@ const Index = () => {
       category: "Pitching"
     },
     {
-      title: "List Segmenter (Lite)",
-      description: "Paste a rough list; get smart segments (region, beat, seniority) + suggested Media AI filters",
+      title: "List Segmenter",
+      description: "Paste a rough list; get smart segments by region, beat, seniority plus suggested Media AI filters",
       icon: Filter,
       slug: "list-segmenter-lite",
       category: "Lists"
     },
     {
-      title: "Contact Dedupe & Clean (Lite)",
-      description: "Paste CSV text; highlight likely duplicates/format errors before import to Media AI",
-      icon: Search,
-      slug: "contact-dedupe-clean-lite",
-      category: "Lists"
+      title: "Coverage Analytics Dashboard",
+      description: "Track your coverage performance with engagement metrics and reach analysis",
+      icon: BarChart3,
+      slug: "coverage-analytics-dashboard",
+      category: "Analytics"
     },
     {
       title: "Outreach Sequence Generator",
@@ -107,8 +108,8 @@ const Index = () => {
       category: "Workflow"
     },
     {
-      title: "Coverage Tracker (Public Page Template)",
-      description: "Create a shareable coverage board template (headline, outlet, link, date)",
+      title: "Coverage Tracker",
+      description: "Create a shareable coverage board template with headline, outlet, link, and date",
       icon: Eye,
       slug: "coverage-tracker-template",
       category: "Analytics"
@@ -128,7 +129,7 @@ const Index = () => {
       category: "Analytics"
     },
     {
-      title: "Media Kit Generator (Lite)",
+      title: "Media Kit Generator",
       description: "Assemble a lightweight press kit page: logo, product shots, boilerplate, founder bios",
       icon: Megaphone,
       slug: "media-kit-builder-lite",
@@ -142,7 +143,7 @@ const Index = () => {
       category: "Pitching"
     },
     {
-      title: "Compliance & Disclosure Helper (Influencers)",
+      title: "Compliance & Disclosure Helper",
       description: "Quick checklist for ASA/FTC disclosures; suggested captions with tags",
       icon: Shield,
       slug: "compliance-disclosure-helper",
@@ -156,15 +157,15 @@ const Index = () => {
       category: "Influencer"
     },
     {
-      title: "Rate Card Estimator (Influencer Lite)",
+      title: "Rate Card Estimator",
       description: "Estimate ranges based on follower bands and platform benchmarks",
       icon: DollarSign,
       slug: "rate-card-estimator-lite",
       category: "Influencer"
     },
     {
-      title: "Hashtag & Angle Finder (Campaign)",
-      description: "Enter topic; get angle ideas + relevant hashtags by platform",
+      title: "Hashtag & Angle Finder",
+      description: "Enter topic; get angle ideas plus relevant hashtags by platform",
       icon: Hash,
       slug: "hashtag-angle-finder",
       category: "Influencer"
@@ -184,11 +185,11 @@ const Index = () => {
       category: "Workflow"
     },
     {
-      title: "Media AI Query Builder",
-      description: "Wizard that outputs a 'saved search' recipe (filters/tags) to reproduce inside Media AI",
-      icon: Zap,
-      slug: "media-ai-query-builder",
-      category: "Workflow"
+      title: "Social Media Content Planner",
+      description: "Create month-long content calendars aligned with campaign goals and trending topics",
+      icon: Calendar,
+      slug: "social-media-content-planner",
+      category: "Influencer"
     },
     {
       title: "PR ROI Snapshot Calculator",

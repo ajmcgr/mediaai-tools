@@ -23,7 +23,8 @@ import {
   Globe,
   Zap,
   ArrowRight,
-  Star
+  Star,
+  Calendar
 } from "lucide-react";
 
 const ToolsHub = () => {
@@ -85,7 +86,7 @@ const ToolsHub = () => {
 
     // Lists Tools
     { 
-      title: "List Segmenter (Lite)", 
+      title: "List Segmenter", 
       description: "Paste a rough list; get smart segments by region, beat, seniority", 
       icon: List, 
       slug: "list-segmenter-lite", 
@@ -93,11 +94,11 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Contact Dedupe & Clean (Lite)", 
-      description: "Paste CSV text; highlight likely duplicates/format errors", 
-      icon: List, 
-      slug: "contact-dedupe-clean", 
-      category: "Lists",
+      title: "Coverage Analytics Dashboard", 
+      description: "Track your coverage performance with engagement metrics and reach analysis", 
+      icon: BarChart3, 
+      slug: "coverage-analytics-dashboard", 
+      category: "Analytics",
       badge: null 
     },
     { 
@@ -109,11 +110,11 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Media AI Query Builder", 
-      description: "Wizard that outputs a 'saved search' recipe for Media AI", 
-      icon: Settings, 
-      slug: "media-ai-query-builder", 
-      category: "Lists",
+      title: "Social Media Content Planner", 
+      description: "Create month-long content calendars aligned with campaign goals", 
+      icon: Calendar, 
+      slug: "social-media-content-planner", 
+      category: "Influencer",
       badge: null 
     },
 
@@ -135,7 +136,7 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Rate Card Estimator (Influencer Lite)", 
+      title: "Rate Card Estimator", 
       description: "Estimate ranges based on follower bands and platform benchmarks", 
       icon: Calculator, 
       slug: "rate-card-estimator", 
@@ -143,8 +144,8 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Hashtag & Angle Finder (Campaign)", 
-      description: "Enter topic; get angle ideas + relevant hashtags by platform", 
+      title: "Hashtag & Angle Finder", 
+      description: "Enter topic; get angle ideas plus relevant hashtags by platform", 
       icon: Hash, 
       slug: "hashtag-angle-finder", 
       category: "Influencer",
@@ -169,7 +170,7 @@ const ToolsHub = () => {
       badge: null 
     },
     { 
-      title: "Media Kit Generator (Lite)", 
+      title: "Media Kit Generator", 
       description: "Assemble a lightweight press kit page", 
       icon: FileText, 
       slug: "media-kit-builder", 
@@ -187,7 +188,7 @@ const ToolsHub = () => {
 
     // Analytics Tools
     { 
-      title: "Coverage Tracker (Public Page Template)", 
+      title: "Coverage Tracker", 
       description: "Create a shareable coverage board template", 
       icon: BarChart3, 
       slug: "coverage-tracker", 
