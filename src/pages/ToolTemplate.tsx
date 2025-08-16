@@ -829,7 +829,7 @@ const ToolTemplate = () => {
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-normal text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-gray-900 mb-4">
               {currentTool.title}
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">

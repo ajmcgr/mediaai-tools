@@ -337,7 +337,7 @@ const ToolsHub = () => {
                       </div>
                     </div>
                     
-                    <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                    <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
                       {tool.title}
                     </h3>
                     

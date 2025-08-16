@@ -219,7 +219,7 @@ const Index = () => {
                         <IconComponent className="h-5 w-5 text-primary" />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="text-xl font-normal text-foreground mb-2 group-hover:text-primary transition-colors">
+                        <h3 className="text-xl font-medium text-foreground mb-2 group-hover:text-primary transition-colors">
                           {tool.title}
                         </h3>
                         <p className="text-muted-foreground text-sm leading-relaxed">
