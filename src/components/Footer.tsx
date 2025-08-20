@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Footer Links */}
-          <div className="grid grid-cols-1 md:grid-cols-5 -gap-x-4 text-center md:text-left justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 text-left">
 
             {/* Company */}
             <div>
